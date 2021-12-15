@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".AcercaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acerca de nosotros"
+        android:gravity="center"
+        android:textColor="#E91E1E"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/servi2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Somos estudiantes universitarios obligados a realizar un proyecto integrador, bajo presión y multiples amenazas de reprobar el cuatrimestre, por favor, dejenos ir a ver spiderman."
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Versión 1.1"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
